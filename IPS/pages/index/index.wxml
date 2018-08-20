@@ -1,0 +1,63 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="location_">
+    <view class="location_left_">
+      <image src="../../images/locate.png" class="locate_icon_"/>
+      <view class="location_font_">内蒙古大学南校区</view>
+    </view>
+    <view class="location_right_" bindtap='locate'>
+    <input placeholder="   ✎ 搜索你的学校" placeholder-class='placeholder_' disabled='true'/>
+    </view>
+  </view>
+
+  <view>
+      <swiper autoplay="true" indicator-active-color="#EAECEB" indicator-dots="true" interval="4000" duration="2000" circular class="banner_">
+        <block >
+          <swiper-item>
+            <image src="../../images/banner1.png" class="slide-image_" mode='aspectFill'/>
+          </swiper-item>
+          <swiper-item>
+            <image src="../../images/banner2.png" class="slide-image_" mode='aspectFill'/>
+          </swiper-item>
+        </block>
+     </swiper>
+  </view>
+
+  <view class="horizonstrip_">
+  </view>
+
+  <view class="grid_">
+      <view class="medium_">
+        <view class="medium_item" bindtap='gotomall_1'><image class="medium_icon_" src="../../images/1.png"/></view>
+        <view class="medium_item_" bindtap='gotomall_2'><image class="medium_icon_" src="../../images/2.png"/></view>
+      </view>
+      <view class="medium_">
+        <view class="medium_item_" bindtap='gotomall_3'><image class="medium_icon_" src="../../images/3.png"/></view>
+        <view class="medium_item_" bindtap='gotomall_4'><image class="medium_icon_" src="../../images/4.png"/></view>
+      </view>
+  </view>
+
+  <view class="horizonstrip_">
+  </view>
+
+  <view>
+  <image class="moduletitle_" src="../../images/guidetitle1.png"/>
+  </view>
+
+  <view class="module_" bindtap="userguide">
+    <view class="module_left">
+        <view class="left_title_">一格闪印如何使用？</view>
+        <view class="left_content_">小程序登录后，有4种打印方式供您选择，文档打印、照片打印、证件照打印和身份证打印，选择后根据不同的打印方式会有各自......</view>
+    </view>
+    <view class="module_right">
+      <image src="../../images/userguide.png" class="right_image_"/>
+    </view>
+  </view>
+
+  <view class="horizonstrip_">
+  </view>
+
+  <view class="bottom_">一格，改变你的大学生活！</view>
+
+</view>

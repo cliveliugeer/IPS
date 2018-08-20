@@ -1,0 +1,71 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+
+  <view class="jifen_">
+    <view class="jifen_lr_">
+        <view class="jifen_item_">0</view>
+        <view class="jifen_item_">积分</view>
+    </view>
+    <view class="jifen_lr_">
+        <view class="jifen_item_">0天</view>
+        <view class="jifen_item_">签到 ☜</view>
+    </view>
+  </view>
+
+  <view class="strip_">
+  </view>
+
+  <view class="bill_">
+    <image src='../../images/price-green.png' class="price_"/>
+    <text>未完成账单</text>
+    <image src='../../images/x-right.png' class="x-right_"/>
+  </view>
+
+    <view class="business_">
+    <view class="business_left_">
+      <image src="../../images/busi1.jpg" class="left_image_"/>
+    </view>
+    <view class="business_right_">
+        <view class="right_title_">格尔打印店</view>
+        <view class="right_content_">支出：15.5元</view>
+        <view class="right_content_">日期：2018-08-15 10 : 32 </view>
+    </view>
+  </view>
+
+    <view class="bill_">
+    <image src='../../images/price-green.png' class="price_"/>
+    <text>已完成账单</text>
+    <image src='../../images/x-right.png' class="x-right_"/>
+  </view>
+
+      <view class="business_">
+    <view class="business_left_">
+      <image src="../../images/busi1.jpg" class="left_image_"/>
+    </view>
+    <view class="business_right_">
+        <view class="right_title_">格尔打印店</view>
+        <view class="right_content_">支出：15.5元</view>
+        <view class="right_content_">日期：2018-08-15 10 : 32 </view>
+    </view>
+  </view>
+
+        <view class="business_">
+    <view class="business_left_">
+      <image src="../../images/busi1.jpg" class="left_image_"/>
+    </view>
+    <view class="business_right_">
+        <view class="right_title_">格尔打印店</view>
+        <view class="right_content_">支出：15.5元</view>
+        <view class="right_content_">日期：2018-08-15 10 : 32 </view>
+    </view>
+  </view>
+  
+
+</view>

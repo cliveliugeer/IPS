@@ -1,0 +1,55 @@
+<view class="container">
+
+  <view class="title_">————  附近商家/云印机  ————</view>
+
+  <view class="business_">
+    <view class="business_left_">
+      <image src="../../images/busi1.jpg" class="left_image_"/>
+    </view>
+    <view class="business_right_">
+        <view class="right_title_">格尔打印店</view>
+        <view class="right_content_">距离：500m</view>
+        <view class="right_content_">电话：15532468952</view>
+        <view class="right_content_">地址：呼和浩特市赛罕区球胡麻差街5号</view>
+    </view>
+  </view>
+
+    <view class="business_">
+      <view class="business_left_">
+        <image src="../../images/busi.jpg" class="left_image_"/>
+      </view>
+      <view class="business_right_">
+          <view class="right_title_">小伟打印店</view>
+          <view class="right_content_">距离：500m</view>
+          <view class="right_content_">电话：15532468952</view>
+          <view class="right_content_">地址：呼和浩特市赛罕区球胡麻差街5号</view>
+      </view>
+    </view>
+
+        <view class="business_">
+      <view class="business_left_">
+        <image src="../../images/busi.jpg" class="left_image_"/>
+      </view>
+      <view class="business_right_">
+          <view class="right_title_">小伟打印店</view>
+          <view class="right_content_">距离：500m</view>
+          <view class="right_content_">电话：15532468952</view>
+          <view class="right_content_">地址：呼和浩特市赛罕区球胡麻差街5号</view>
+      </view>
+    </view>
+
+
+      <view class="business_">
+    <view class="business_left_">
+      <image src="../../images/busi1.jpg" class="left_image_"/>
+    </view>
+    <view class="business_right_">
+        <view class="right_title_">格尔打印店</view>
+        <view class="right_content_">距离：500m</view>
+        <view class="right_content_">电话：15532468952</view>
+        <view class="right_content_">地址：呼和浩特市赛罕区球胡麻差街5号</view>
+    </view>
+  </view>
+
+
+</view>

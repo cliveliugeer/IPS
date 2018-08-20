@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="top_">
+    <input placeholder="请输入学校名称"/>
+  </view>
+  <view class="background_">当前学校</view>
+  <view class="schoolback_">内蒙古大学南校区</view>
+  <view class="background_">学校列表</view>
+  <view class="schoolback_">青岛科技大学</view>
+  <view class="schoolback_">内蒙古工业大学</view>
+  <view class="schoolback_">清华大学</view>
+  <view class="schoolback_">北京大学</view>
+
+</view>

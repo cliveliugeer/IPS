@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/userguide/index",
+    "pages/locate/index",
+    "pages/business/index",
+    "pages/management/index",
+    "pages/self/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "一格校园",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#018afe",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/yige_gray.png",
+        "selectedIconPath": "images/yige_green.png",
+        "text": "一格闪印"
+      },
+      {
+        "pagePath": "pages/management/index",
+        "iconPath": "images/trip-gray.png",
+        "selectedIconPath": "images/trip-green.png",
+        "text": "教务系统"
+      },
+      {
+        "pagePath": "pages/self/index",
+        "iconPath": "images/my-gray.png",
+        "selectedIconPath": "images/my-green.png",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

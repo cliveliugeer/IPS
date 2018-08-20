@@ -1,0 +1,30 @@
+.top_{
+  background-color: #E4F7FF;
+  width:100%;
+  font-size:30rpx;
+  padding:10rpx;
+  text-align: center;
+}
+input{
+  background-color: white;
+  width:700rpx;
+  margin:20rpx;
+  height:60rpx;
+  border-radius: 10rpx;
+  
+
+}
+.background_{
+  background-color: #F8F8F8;
+  width: 100%;
+  padding:10rpx;
+  padding-left: 30rpx;
+  color:#6F7376;
+  font-size: 30rpx;
+}
+.schoolback_{
+  padding:30rpx;
+  color:#6F7376;
+  font-size: 25rpx;
+  border-bottom: 1px solid #FAFAFA;
+}
